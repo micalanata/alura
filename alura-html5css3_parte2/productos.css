@@ -25,8 +25,14 @@ nav a {
     text-transform: uppercase;
     color: #000000;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
     text-decoration: none;
+    font-family: Verdana;
+}
+
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
 }
 
 productos {
@@ -38,8 +44,22 @@ productos {
 .productos li {
     display: inline-block;
     text-align: center;
-    width: 30%;
+    width: 29%;
     vertical-align: top;
+    font-family: Tahoma;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 20px;
+}
+
+.productos li:hover {
+    border-color: #c78c19;
+}
+
+.productos li:active {
+    border-color: #088c19;
 }
 
 productos h2 {
@@ -52,8 +72,26 @@ productos h2 {
     font-size: 20px;
 }
 
+.productos li h2:hover {
+    font-size: 33px;
+}
+
 .producto-precio {
     font-size: 25px;
     font-weight: bold;
-    margin: 10px
+    margin-top: 10px;
+    
+}
+
+footer {
+    text-align: center;
+    background-image: url(imagenes/imagenes/bg.jpg);
+    padding: 40px;
+    
+}
+
+.Copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
 }

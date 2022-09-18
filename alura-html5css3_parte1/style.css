@@ -3,8 +3,10 @@
     padding-left: 30px;
 }
 
+
 .titulo-centralizado {
     text-align: center;
+    font-family: tahoma;
 }
 
 p {
@@ -14,6 +16,7 @@ p {
 .principal {
     background: #CCCCCC;
     padding: 20px;
+    font-family: tahoma;
 }
 
 #banner{
@@ -21,11 +24,13 @@ p {
 }
 #mision {
     font-style: 20px;
+    font-family: tahoma;
 }
 
 .diferenciales {
     background: #FFFFFF;
     padding: 30px;
+    font-family: tahoma;
 }
 
 em strong{
