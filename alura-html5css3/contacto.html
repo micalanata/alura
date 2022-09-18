@@ -2,16 +2,16 @@
 
 <html>
 
-    <head>
-        <meta charset="UTF-8">
+<head>
+    <meta charset="UTF-8">
 
-        <title>Contacto - Barbería Alura</title>
-        
-        <link rel="stylesheet" href="reset.css">
-         
-        <link rel="stylesheet" href="style.css">
+    <title>Contacto - Barbería Alura</title>
 
-    </head>
+    <link rel="stylesheet" href="reset.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
 
 <body>
     <header>
@@ -32,18 +32,39 @@
     <main>
         <form>
 
-            
-            <label for="nombreapellido">Nombre y Apellido</label>
+
+            <label for="nombreapellido" class="input-padron">Nombre y Apellido</label>
             <input type="text" id="nombreapellido">
 
-            <label for="correoelectronico">Correo electrónico</label>
+            <label for="correoelectronico" class="input-padron">Correo electrónico</label>
             <input type="text" id="correoelectronico">
 
-            <label for="telefono">Teléfono</label>
+            <label for="telefono" class="input-padron">Teléfono</label>
             <input type="text" id="telefono">
 
+            <label for="mensaje" >Mensaje</label>
+            <textarea cols="70" rows="10" id="mensaje" class="input-padron"></textarea>
+
+            <div>
+                <p class="pregunta-contacto">¿Cómo le gustaría que lo contactemos?</p>
+
+
+                <label for="radio-email"><input type="radio" name="contacto" value="email"
+                        id="radio-email">Email</label>
+
+
+                <label for="radio-telefono"><input type="radio" name="contacto" value="telefono"
+                        id="radio-telefono">Telefono</label>
+
+
+                <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp"
+                        id="radio-whatsapp">WhatsApp</label>
+
+            </div>
+
+            <label class="checkbox"><input type="checkbox">¿Le gustaría recibir novedades de la Barbería Alura?</label>
+
             <input type="submit" value="Enviar formulario">
-            
         </form>
 
     </main>
