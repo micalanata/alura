@@ -35,7 +35,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-productos {
+.productos {
     width: 960px;
     margin: 0 auto;
     padding: 50px;
@@ -62,7 +62,7 @@ productos {
     border-color: #088c19;
 }
 
-productos h2 {
+.productos h2 {
     font-size: 30px;
     font-weight: bold;
 
@@ -108,7 +108,7 @@ form {
     
 }
 
-form label, form textarea {
+form label, form p {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
