@@ -108,10 +108,15 @@ form {
     
 }
 
-form label, form p {
+form label, form legend {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
+    
+}
+
+fieldset{
+    border: 0;
 }
 
 .input-padron {
@@ -121,10 +126,7 @@ form label, form p {
     width: 50%;
 }
 
-.pregunta-contacto {
-    font-weight: bold;
-    font-family: tahoma;
-}
+
 
 .checkbox {
     margin: 20px 0;
