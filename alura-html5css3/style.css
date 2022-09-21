@@ -131,7 +131,6 @@ fieldset{
 }
 
 
-
 .checkbox {
     margin: 20px 0;
 }
@@ -213,8 +212,20 @@ td, th {
     padding: 3em 0;
 }
 
-.imagenDiferenciales {
+.contenido-diferenciales{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-diferenciales {
+    width: 40%;
+    display: inline-block;
+}
+
+.imagen-diferenciales {
     width: 60%;
+    align: right;
+
 }
 
 .video {
